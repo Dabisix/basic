@@ -14,5 +14,6 @@ public class UserController {
     @GetMapping("/{userId}")
     public ResponseEntity<String> getUser(@PathVariable("userId") int userId) {
         return new ResponseEntity<>("입력받은 사용자 userId는 " + userId + " 입니다.", HttpStatus.OK);
+
     }
 }
