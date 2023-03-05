@@ -1,13 +1,13 @@
-package com.example.basic;
+package com.example.basic4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BasicApplication {
+public class Basic4Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(BasicApplication.class, args);
+        SpringApplication.run(Basic4Application.class, args);
     }
 
 }
